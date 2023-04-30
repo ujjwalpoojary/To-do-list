@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#todo-container{
+    /* border: 1px solid black; */
+    width: 46vw;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    min-height: 40vh;
+    background-color: lightslategrey;
+    border-radius: 5px;
+    position: relative;
+}
+
+#todo-container h1{
+    /* border: 1px solid black; */
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#task-input{
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+}
+
+#add-btn,.btn-style{
+    padding: 4px;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: ;
+}
+
+#list-container{
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.list-items{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+    color: white;
+}
+.mark-as-done{
+    text-decoration: line-through;
+    color: black;
+    font-style: italic;
+}
+
+#todo-input{
+    width:-moz-fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
+#delete-all{
+    display: block;
+    margin: auto;
+}

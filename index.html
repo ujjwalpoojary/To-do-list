@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do-app</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="todo-container">
+      <h1>To Do List</h1>
+      <div id="todo-input">
+        <input type="text" id="task-input" placeholder="enter your task...." />
+        <button id="add-btn" >Add Task</button>
+      </div>
+      <div id="list-container">
+        <!-- <div id="list-items">
+          <span id="item">Eggs</span>
+          <div id="btn-container">
+            <button id="edit" class="btn-style" style="background-color: pink;">Edit</button>
+            <button id="delete" class="btn-style" style="background-color:rgb(254, 69, 69);">Delete</button>
+          </div>
+        </div> -->
+      </div>
+      <button onclick="delAll()" class="btn-style" id="delete-all">Delete All</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
